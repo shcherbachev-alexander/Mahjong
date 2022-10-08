@@ -1,0 +1,37 @@
+.card {
+  background: #FFFFFF;
+  border: 0.5px solid #CDCDCD;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  cursor: pointer;
+  flex: 0 0 80px;
+  max-width: 80px;
+  height: 104px;
+  width: 80px;
+  margin-bottom: 15px;
+  color: transparent;
+  &:hover {
+    border: 0.5px solid #ED5517;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 15%);
+  }
+}
+
+.card-show-default {
+  color: #0A0A0C;
+}
+
+.card-show {
+  border: 0.5px solid #ED5517;
+  color: #0A0A0C;
+  box-shadow: 2px 4px 8px rgb(0 0 0 / 15%);
+}
+
+.card-finished {
+  border: 0.5px solid #0A0A0C;
+  color: #0A0A0C;
+  cursor: none;
+  pointer-events: none;
+}
